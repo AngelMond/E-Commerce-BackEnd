@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 
-// // turn on connection to db and server
+// turn on connection to db and server
 const init = async () => {
   try {
     await sequelize.sync({force:false});
