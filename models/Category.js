@@ -9,11 +9,11 @@ Category.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      autoIncrement: true,
       primaryKey: true,
+      autoIncrement: true
     },
     categoryName: {
-      type: STRING,
+      type: DataTypes.STRING,
       allowNull: false
     }
   },
