@@ -3,6 +3,9 @@ const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
 
+
+//CHECK
+
 router.get('/',async (req, res) => {
   // find all categories
   // be sure to include its associated Products
@@ -18,6 +21,8 @@ router.get('/',async (req, res) => {
 
 });
 
+
+//CHECK
 
 // find one category by its `id` value
 // be sure to include its associated Products
@@ -39,6 +44,8 @@ router.get('/:id', async (req, res) => {
 });
 
 
+//CHECK
+
 //CREATE CATEGORY.  // create a new category
 router.post('/', async (req, res) => {
  
@@ -49,6 +56,8 @@ router.post('/', async (req, res) => {
   res.status(500).json(err)
  }
 });
+
+//CHECK
 
 //UPDATE CATEGORY
 router.put('/:id', async (req, res) => {
@@ -68,12 +77,15 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({message: 'No category with that id!'})
       return;
     }
-    res.status(200).json(updateCategory);
+    res.status(200).json({message: `Category successfully updated with id ${ req.params.id}`});
+    
 
   }catch(err){
     res.status(500).json(err)
   }
 });
+
+// CHECK
 
 //DELETE CATEGORY
 router.delete('/:id', async (req, res) => {
@@ -89,7 +101,7 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({message: 'No category with that id!'})
     return;
     }
-    res.status(200).json(deleteCategory);
+    res.status(200).json({message: `Category successfully deleted with id ${ req.params.id}`});
 
   }catch(err){
     res.status(500).json(err)
