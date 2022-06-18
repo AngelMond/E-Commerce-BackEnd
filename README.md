@@ -57,8 +57,8 @@
 
 * Once we finish to install nodejs, we'll need to install MySQL 
 
-    Install for Windows: <a src="https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html">https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html</a>
-    Install for MacOS: <a src="https://dev.mysql.com/doc/refman/5.7/en/macos-installation-pkg.html">https://dev.mysql.com/doc/refman/5.7/en/macos-installation-pkg.html</a>
+    * Install for Windows: <a src="https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html">https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html</a>
+    * Install for MacOS: <a src="https://dev.mysql.com/doc/refman/5.7/en/macos-installation-pkg.html">https://dev.mysql.com/doc/refman/5.7/en/macos-installation-pkg.html</a>
 
 * When executing the installer you might also want to install MySQL Workbench, so, be sure to add it in your intallation when the program ask!
 * If you have troubles with MySQL installation here's a youtube video for microsoft intallation <a src="https://www.youtube.com/watch?v=eq-e_n7lm2M">https://www.youtube.com/watch?v=eq-e_n7lm2M</a>
