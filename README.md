@@ -44,7 +44,7 @@
 
         * Homebrew Intallation
 
-            1. Navigate to the ofical Homebrew WebSite. you can doing so by clicking here <p><a src="https://brew.sh/">https://brew.sh/</a></p>
+            1. Navigate to the ofical Homebrew WebSite. you can doing so by clicking here <a src="https://brew.sh/">https://brew.sh/</a>
             2. From the command line type the command 
             /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
             3. One finished the installation type the this command through the command line
