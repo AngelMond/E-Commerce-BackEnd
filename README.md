@@ -13,7 +13,6 @@
     <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=fff">
     <img src="https://img.shields.io/badge/-MySQL-003B57?logo=mysql&logoColor=fff">
     <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=fff">
-    <img src="https://img.shields.io/badge/-MySQL-003B57?logo=mysql&logoColor=fff">
 </div>
 
 # Code Project 
