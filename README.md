@@ -91,23 +91,62 @@
         </p>
 # Create our DB called ecommerce_db;
 4. Once we already put our credentials in our "env." file, we need to go to our "MySQL Workbench" or "MySQL Command Line Client" or "MySQL Shell" and type the following commands:
-    * IMPORTANT: BE SURE YOU ARE NOT USING ALREADY A DATA BASE NAMED ecommerce_db DATABASE
+    * IMPORTANT: BE SURE YOU ARE NOT USING ALREADY A DATABASE NAMED ecommerce_db.
     <p>DROP DATABASE IF EXISTS ecommerce_db;</p>
     <p>CREATE DATABASE IF NOT EXISTS ecommerce_db;</p>
     * Once done this, go back to node.
 
 # Create our tables in our DB
-5. We already have created our DB (DataBase) and now we need to create our tables that will store all our data. We can do this by typing in the comman line the following command: 
+5. We already have created our DB (DataBase) and now we need to create our tables that will store all our data. We can do this by typing in the command line the following command: 
     <p>node server.js</p>
     * At this point we already have our tables, now we need to seed our tables.
 
 # Seed our tables
 6. First press "Ctrl+C" to kill the server process and now type in the command line:
     <p>npm run seed</p>
-
+    * Now our DB it's already seeded!
 # Turn on our server
 7. For the last, we need to type again in the command line:
 <p>node server.js</p>
+
+* Now you have your saver listening in the route: "http://localhost:3001/"
+* You can use Insomnia, Postman, ThunderClient to do requests to your server and your DataBase! 
+
+# Methods to do requests
+<p>
+//Methods for categories
+//GET 
+localhost:3001/api/categories // get all categories
+localhost:3001/api/categories/:id // get one category by its id
+//POST
+localhost:3001/api/categories // create a new category
+//PUT
+localhost:3001/api/categories/:id // update a category by its id value
+//DELETE
+localhost:3001/api/categories/:id // delete a category by its id value
+
+//Methods for products 
+//GET 
+localhost:3001/api/products // get all products
+localhost:3001/api/products/:id // get one product by its id
+//POST
+localhost:3001/api/products // create a new product
+//PUT
+localhost:3001/api/products/:id // update a product by its id value
+//DELETE
+localhost:3001/api/products/:id // update a product by its id value
+
+//Methods for tags
+//GET
+localhost:3001/api/tags // to get all tags
+localhost:3001/api/tags:id // get one tag by its id
+//POST
+localhost:3001/api/tags // create a new tag
+//PUT
+localhost:3001/api/tags:id // update a tag by its id value
+//DELETE
+localhost:3001/api/tags:id // update a tag by its id value
+</p>
     
 
 # User Story
