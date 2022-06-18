@@ -114,7 +114,7 @@
 
 # Methods to do requests
 
-<p>//Methods for categories</p>
+* Methods for categories
 <p>//GET </p>
 <p><a>localhost:3001/api/categories</a> // get all categories</p>
 <p><a>localhost:3001/api/categories/:id</a> // get one category by its id</p>
@@ -126,7 +126,7 @@
 <p><a>localhost:3001/api/categories/:id</a> // delete a category by its id value</p>
 
 
-<p>//Methods for products </p>
+* Methods for products 
 <p>//GET</p>
 <p><a>localhost:3001/api/products</a> // get all products</p>
 <p><a>localhost:3001/api/products/:id</a> // get one product by its id</p>
@@ -138,16 +138,16 @@
 <p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
 
 
-<p>//Methods for tags</p>
-<p>//GET</p>
-<p><a>localhost:3001/api/tags</a> // to get all tags</p>
-<p><a>localhost:3001/api/tags:id </a>// get one tag by its id</p>
-<p>//POST</p>
-<p><a>localhost:3001/api/tags</a> // create a new tag</p>
-<p>//PUT</p>
-<p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
-<p>//DELETE</p>
-<p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
+* Methods for tags 
+    * GET 
+        * <p><a>localhost:3001/api/tags</a> // to get all tags</p>
+        * <p><a>localhost:3001/api/tags:id </a>// get one tag by its id</p>
+    * POST 
+        * <p><a>localhost:3001/api/tags</a> // create a new tag</p>
+    * PUT
+        * <p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
+    * DELETE
+        * <p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
 
 # User Story
 
