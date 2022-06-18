@@ -115,27 +115,27 @@
 # Methods to do requests
 
 * Methods for categories
-<p>//GET </p>
-<p><a>localhost:3001/api/categories</a> // get all categories</p>
-<p><a>localhost:3001/api/categories/:id</a> // get one category by its id</p>
-<p>//POST</p>
-<p><a>localhost:3001/api/categories</a> // create a new category</p>
-<p>//PUT</p>
-<p><a>localhost:3001/api/categories/:id</a> // update a category by its id value</p>
-<p>//DELETE</p>
-<p><a>localhost:3001/api/categories/:id</a> // delete a category by its id value</p>
+    * GET
+        * <p><a>localhost:3001/api/categories</a> // get all categories</p>
+        * <p><a>localhost:3001/api/categories/:id</a> // get one category by its id</p>
+    * POST
+        * <p><a>localhost:3001/api/categories</a> // create a new category</p>
+    * PUT
+        * <p><a>localhost:3001/api/categories/:id</a> // update a category by its id value</p>
+    * DELETE
+        * <p><a>localhost:3001/api/categories/:id</a> // delete a category by its id value</p>
 
 
 * Methods for products 
-<p>//GET</p>
-<p><a>localhost:3001/api/products</a> // get all products</p>
-<p><a>localhost:3001/api/products/:id</a> // get one product by its id</p>
-<p>//POST</p>
-<p><a>localhost:3001/api/products</a> // create a new product</p>
-<p>//PUT</p>
-<p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
-<p>//DELETE</p>
-<p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
+    * GET
+        * <p><a>localhost:3001/api/products</a> // get all products</p>
+        * <p><a>localhost:3001/api/products/:id</a> // get one product by its id</p>
+    * POST
+        * <p><a>localhost:3001/api/products</a> // create a new product</p>
+    * PUT
+        * <p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
+    * DELETE
+        * <p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
 
 
 * Methods for tags 
