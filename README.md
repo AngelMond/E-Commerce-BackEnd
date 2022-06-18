@@ -46,11 +46,11 @@
 
             1. Navigate to the ofical Homebrew WebSite. you can doing so by clicking here <a src="https://brew.sh/">https://brew.sh/</a>
             2. From the command line type the command 
-            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+            <p>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</p>
             3. One finished the installation type the this command through the command line
-            brew install node
+            <p>brew install node</p>
             4. For the last, check the installed version of NodeJS typing 
-            node -v
+            <p>node -v</p>
 
 
 * MySQL Installation 
