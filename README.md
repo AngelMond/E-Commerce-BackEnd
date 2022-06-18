@@ -25,8 +25,7 @@
 
 
 
-* In order to start with the installation, we first need to install NodeJS and MySQL. Here's the link<p><a src="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
-
+* In order to start with the installation, we first need to install NodeJS and MySQL.
 
 * Node Installation
 
@@ -36,7 +35,7 @@
     2. Select the LTS version. At the time of writing this, the latest version is 16.15.1
     3. Once LTS installer finish to download, execute the intaller.
     4. Once the installer has finished, check through the command line the intalled version of NodeJS typing
-        node --version
+             --version
 
 * Intallation On MacOS
 
