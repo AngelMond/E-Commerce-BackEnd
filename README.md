@@ -116,38 +116,38 @@
 
 <p>//Methods for categories</p>
 <p>//GET </p>
-<p>localhost:3001/api/categories // get all categories</p>
-<p>localhost:3001/api/categories/:id // get one category by its id</p>
+<p><a>localhost:3001/api/categories</a> // get all categories</p>
+<p><a>localhost:3001/api/categories/:id</a> // get one category by its id</p>
 <p>//POST</p>
-<p>localhost:3001/api/categories // create a new category</p>
+<p><a>localhost:3001/api/categories</a> // create a new category</p>
 <p>//PUT</p>
-<p>localhost:3001/api/categories/:id // update a category by its id value</p>
+<p><a>localhost:3001/api/categories/:id</a> // update a category by its id value</p>
 <p>//DELETE</p>
-<p>localhost:3001/api/categories/:id // delete a category by its id value</p>
+<p><a>localhost:3001/api/categories/:id</a> // delete a category by its id value</p>
 
 
 <p>//Methods for products </p>
 <p>//GET</p>
-<p>localhost:3001/api/products // get all products</p>
-<p>localhost:3001/api/products/:id // get one product by its id</p>
+<p><a>localhost:3001/api/products</a> // get all products</p>
+<p><a>localhost:3001/api/products/:id</a> // get one product by its id</p>
 <p>//POST</p>
-<p>localhost:3001/api/products // create a new product</p>
+<p><a>localhost:3001/api/products</a> // create a new product</p>
 <p>//PUT</p>
-<p>localhost:3001/api/products/:id // update a product by its id value</p>
+<p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
 <p>//DELETE</p>
-<p>localhost:3001/api/products/:id // update a product by its id value</p>
+<p><a>localhost:3001/api/products/:id</a> // update a product by its id value</p>
 
 
 <p>//Methods for tags</p>
 <p>//GET</p>
-<p>localhost:3001/api/tags // to get all tags</p>
-<p>localhost:3001/api/tags:id // get one tag by its id</p>
+<p><a>localhost:3001/api/tags</a> // to get all tags</p>
+<p><a>localhost:3001/api/tags:id </a>// get one tag by its id</p>
 <p>//POST</p>
-<p>localhost:3001/api/tags // create a new tag</p>
+<p><a>localhost:3001/api/tags</a> // create a new tag</p>
 <p>//PUT</p>
-<p>localhost:3001/api/tags:id // update a tag by its id value</p>
+<p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
 <p>//DELETE</p>
-<p>localhost:3001/api/tags:id // update a tag by its id value</p>
+<p><a>localhost:3001/api/tags:id</a> // update a tag by its id value</p>
 
 # User Story
 
