@@ -66,6 +66,50 @@
 * Youtube video for MacOS MySQL intallation <a src="https://www.youtube.com/watch?v=-BDbOOY9jsc">https://www.youtube.com/watch?v=-BDbOOY9jsc</a>
 
 
+# Ready to install
+
+# Clone the repo
+1. Clone the the repo in your local computer by copying the command (HTTPS, SSH, GitHub CLI), use the method you already are familiar with.
+    * Example 
+    !["Clone Repo"](assets/screenshots/cloneRepo.jpg);
+    * Here's a video to how you can generate your SSH Key <a src="https://www.youtube.com/watch?v=8X4u9sca3Io">https://www.youtube.com/watch?v=8X4u9sca3Io</a>
+
+    * Once you have copied the command from github we need to go to node command line, and first you need to type "git clone" and then paste the command you already copied. 
+        * Note: Maybe the command line ask you to introduce your password, if so, you just need to type it.
+
+# Install dependencies
+2. Once we have cloned successfully the repo, we need to install our dependencies by typing in the command line the next command:
+    <p>npm install</p>
+
+# Create .env file
+3. Once we have our dependencies installed, we need to go to CREATE a file named .env in the root directory.
+    * Inside out "env." file, we need to paste this:
+        <p>
+            DB_USER='your database user credentials here. Maybe you'll need to replace it for DB_USER=root'
+            DB_PW='your database password credentials here. If you dont have password leave it in blank like this: DB_PW='' '
+            DB_NAME='ecommerce_db'
+        </p>
+# Create our DB called ecommerce_db;
+4. Once we already put our credentials in our "env." file, we need to go to our "MySQL Workbench" or "MySQL Command Line Client" or "MySQL Shell" and type the following commands:
+    * IMPORTANT: BE SURE YOU ARE NOT USING ALREADY A DATA BASE NAMED ecommerce_db DATABASE
+    <p>DROP DATABASE IF EXISTS ecommerce_db;</p>
+    <p>CREATE DATABASE IF NOT EXISTS ecommerce_db;</p>
+    * Once done this, go back to node.
+
+# Create our tables in our DB
+5. We already have created our DB (DataBase) and now we need to create our tables that will store all our data. We can do this by typing in the comman line the following command: 
+    <p>node server.js</p>
+    * At this point we already have our tables, now we need to seed our tables.
+
+# Seed our tables
+6. First press "Ctrl+C" to kill the server process and now type in the command line:
+    <p>npm run seed</p>
+
+# Turn on our server
+7. For the last, we need to type again in the command line:
+<p>node server.js</p>
+    
+
 # User Story
 
 AS A manager at an internet retail company
@@ -89,8 +133,6 @@ THEN the data for each of these routes is displayed in a formatted JSON
 
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
-
-
 
 
 # Challenges
