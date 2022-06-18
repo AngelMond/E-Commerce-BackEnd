@@ -82,11 +82,11 @@
     <p>npm install</p>
 
 # Create .env file
-3. Once we have our dependencies installed, we need to go to CREATE a file named .env in the root directory.
-    * Inside out "env." file, we need to paste this:
+3. Once we have our dependencies installed, we need to create in the root directory a file named ".env".
+    * Inside our "env." file, we need to paste this:
         <p>
-            DB_USER='your database user credentials here. Maybe you'll need to replace it for DB_USER=root'
-            DB_PW='your database password credentials here. If you dont have password leave it in blank like this: DB_PW='' '
+            DB_USER='your database user credentials here. Maybe you'll need to replace it for DB_USER="root"'
+            DB_PW='your database password credentials here. If you dont have password just leave the "quotes"'
             DB_NAME='ecommerce_db'
         </p>
 # Create our DB called ecommerce_db;
