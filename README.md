@@ -39,7 +39,7 @@
 
 * Intallation On MacOS
 
-    1. You can follow the same steps for the Windows intallation going directly to <p><a src="https://nodejs.org/en/">https://nodejs.org/en/</a></p>, and follow the same steps for Windows.
+    1. You can follow the same steps for the Windows intallation going directly to <a src="https://nodejs.org/en/">https://nodejs.org/en/</a>, and follow the same steps for Windows.
     2. Or you can install Node intalling first Homebrew.
 
         * Homebrew Intallation
